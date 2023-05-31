@@ -7,7 +7,7 @@
 |      参数     |     名称      |     备注      |
 |--------------|---------------|---------------|
 | url          | 验证码图片链接 |url与imgdata必须有一个 |
-| header        | 所需header   | 可为空|
+| header        | 所需headers   | 可为空|
 | imgdata      | base64格式图片数据| url与imgdata必须有一个|
 |     |     |digit:纯数字 |
 | |     |alpha:纯字母 |
