@@ -14,3 +14,16 @@
 |comp  |  验证码组成     |alnum:数字+字母 |
 |       |       |all:任意字符串|
 |       |       |可为空:默认alnum|
+
+## 返回结果
+
+{
+
+	"code": 1, //状态码：1，正常；0，失败
+  
+	"result": "9897", //验证码
+  
+	"cookies": {}, //验证码链接返回的cookies
+  
+	"msg": "success" //状态：success，成功；failure，失败
+  }
